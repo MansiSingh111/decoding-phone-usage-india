@@ -1,13 +1,13 @@
 # 📱 Clustering & Exploratory Data Analysis: Phone Usage Patterns
 
-Welcome! This repository showcases unsupervised machine learning and exploratory data analysis on a phone usage dataset. By applying K-Means and Gaussian Mixture Models, the project identifies distinct user groups, visualizes clustering results, and interprets behavioral traits using Python.
+Welcome! This repository showcases unsupervised machine learning and exploratory data analysis on a phone usage dataset. By applying different Models, the project identifies distinct user groups, visualizes clustering results, and interprets behavioral traits using Python.
 
 ---
 
 ## 🚀 Project Highlights
 
 - Cleaned and preprocessed diverse phone usage data
-- Multiple clustering algorithms implemented (K-Means, GMM)
+- Multiple clustering algorithms implemented (K-Means, Hierarchical, DBSCAN, GMM, Spectral)
 - Dimensionality reduction using PCA for clear visualizations
 - Cluster membership assignment and profiling
 - Feature-wise distribution analysis per cluster
@@ -18,11 +18,7 @@ Welcome! This repository showcases unsupervised machine learning and exploratory
 ## 🧑‍💻 Quick Start
 
 Clone this repo:
-git clone https://github.com/<username>/<repo>.git
-cd <repo>
-
-Install requirements:
-pip install -r requirements.txt
+git clone [https://github.com/MansiSingh111/decoding-phone-usage-india]
 
 Launch the main analysis:
 python main.py
@@ -70,7 +66,6 @@ streamlit run app.py
 
 - Python 3.9+
 - pandas, numpy, scikit-learn, matplotlib, seaborn, streamlit
-- See requirements.txt for the full list.
 
 ---
 
